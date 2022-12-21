@@ -15,14 +15,14 @@ function TabsFeature(){
       </TabList>
 
       <TabPanel>
-        <div className="flex justify-center items-center p-16 gap-x-20 relative">
+        <div className="flex justify-center p-16 gap-x-20 relative">
           <img
             src='images/illustration-features-tab-1.svg'
             alt="Illustration features - Tab 1"
             loading="lazy"
             className="relative z-10"
           />
-          <div>
+          <div className="mt-16 max-w-[400px]">
             <h3 className="text-h2">Bookmark in one click</h3>
             <p className="text-gray font-normal my-6">
               Organize your bookmarks however you like.
@@ -34,18 +34,18 @@ function TabsFeature(){
         </div>
       </TabPanel>
       <TabPanel>
-        <div className="flex justify-center items-center p-16 gap-x-20 relative">
+        <div className="flex justify-center p-16 gap-x-20 relative">
           <img
             src='images/illustration-features-tab-2.svg'
             alt="Illustration features - Tab 2"
             loading="lazy"
             className="relative z-10"
           />
-          <div>
-            <h3 className="text-h2">Speedy Searching</h3>
+          <div className="mt-16 max-w-[400px]">
+            <h3 className="text-h2">Intelligent search</h3>
             <p className="text-gray font-normal my-6">
-              Organize your bookmarks however you like.
-              Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
+              Our powerful search feature will help you find saved sites in no time at all.
+              No need to trawl through all of your bookmarks.
             </p>
             <a className="inline-block text-white bg-soft-blue rounded py-3 px-8" href="#">More info</a>
           </div>
@@ -53,18 +53,18 @@ function TabsFeature(){
         </div>
       </TabPanel>
       <TabPanel>
-        <div className="flex justify-center items-center p-16 gap-x-20 relative">
+        <div className="flex justify-center p-16 gap-x-20 relative">
           <img
             src='images/illustration-features-tab-3.svg'
             alt="Illustration features - Tab 3"
             loading="lazy"
             className="relative z-10"
           />
-          <div>
-            <h3 className="text-h2">Easy Sharing</h3>
+          <div className="mt-16 max-w-[400px]">
+            <h3 className="text-h2">Share youe bookmarks</h3>
             <p className="text-gray font-normal my-6">
-              Organize your bookmarks however you like.
-              Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
+              Easily sjare your bookmarks and collections width others.
+              Create a shareable link that you can send at the click of a button.
             </p>
             <a className="inline-block text-white bg-soft-blue rounded py-3 px-8" href="#">More info</a>
           </div>
