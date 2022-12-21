@@ -1,0 +1,18 @@
+.react-tabs ul > li {
+  color: #a8a7ac;
+}
+
+.react-tabs ul > li.react-tabs__tab--selected {
+  color: #000000;
+}
+
+.react-tabs ul > li.react-tabs__tab--selected::before {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  width: 100%;
+  background-color: hsl(0, 94%, 66%);
+}
