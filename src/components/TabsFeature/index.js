@@ -63,7 +63,7 @@ function TabsFeature(){
           <div className="mt-16 max-w-[400px]">
             <h3 className="text-h2">Share youe bookmarks</h3>
             <p className="text-gray font-normal my-6">
-              Easily sjare your bookmarks and collections width others.
+              Easily share your bookmarks and collections width others.
               Create a shareable link that you can send at the click of a button.
             </p>
             <a className="inline-block text-white bg-soft-blue rounded py-3 px-8" href="#">More info</a>
