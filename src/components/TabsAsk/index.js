@@ -11,7 +11,7 @@ function TabsAsk({ title, lastItem = false }) {
         className={
           `${lastItem && !active ? 'border-y' : 'border-t'}
           py-3 border-t border-[#dedede] cursor-pointer flex items-center justify-between gap-4 pr-4
-          duration-300 hover:text-soft-red
+        hover:text-soft-red
           `}
       >
         {title}

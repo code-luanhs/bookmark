@@ -2,17 +2,25 @@
   color: #a8a7ac;
 }
 
-.react-tabs ul > li.react-tabs__tab--selected {
+.react-tabs ul > li.react-tabs__tab--selected span {
   color: #000000;
+  position: relative;
 }
 
-.react-tabs ul > li.react-tabs__tab--selected::before {
+.react-tabs ul > li.react-tabs__tab--selected span::before {
   content: '';
   position: absolute;
   bottom: -1px;
   left: 0;
   right: 0;
+  top: 40px;
   height: 4px;
   width: 100%;
   background-color: hsl(0, 94%, 66%);
+}
+
+@media (min-width: 1024px) {
+  .react-tabs ul > li.react-tabs__tab--selected span {
+    display: block;
+  }
 }

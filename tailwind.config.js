@@ -9,6 +9,7 @@ module.exports = {
       'blue': 'hsl(229, 8%, 60%)',
       'soft-blue': 'hsl(231, 69%, 60%)',
       'dark-blue': 'hsl(229, 31%, 21%)',
+      'dark-blue-opacity': 'rgba(47, 53, 79, .95)',
       'soft-red': 'hsl(0, 94%, 66%)',
       'gray': '#a8a7ac',
       'dark-gray': '#717276'

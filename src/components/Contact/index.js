@@ -12,7 +12,7 @@ function Contact() {
           <input
             type="name"
             placeholder="Enter your email address"
-            className="bg-white rounded py-2.5 px-4 w-full max-w-[330px] text-[#ccc] placeholder:text-[#ccc] font-normal max-lg:max-w-[100%]"
+            className="bg-white rounded py-2.5 px-4 w-full max-w-[330px] text-dark-blue placeholder:text-[#ccc] font-normal max-lg:max-w-[100%]"
             required
           />
           <button
