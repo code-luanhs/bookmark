@@ -1,8 +1,8 @@
 function Intro() {
   return (
     <section className="overflow-hidden">
-      <div className="max-w-container mx-auto py-12 flex items-center justify-between relative">
-        <div className="max-w-[475px]">
+      <div className="max-w-container mx-auto py-12 flex items-center justify-between relative max-lg:flex-col-reverse max-lg:justify-center">
+        <div className="lg:max-w-[475px] max-lg:text-center max-lg:px-8">
           <h1 className="text-h1">A Simple Bookmark Manager</h1>
           <p className="my-8 text-gray font-normal">
             A clean and simple interface to organize your favourite websites.
@@ -10,7 +10,7 @@ function Intro() {
             Try it for free.
           </p>
           <nav>
-            <ul className="flex items-center gap-x-6">
+            <ul className="flex items-center gap-x-6 max-lg:justify-center">
               <li>
                 <a
                   href="#"
@@ -34,9 +34,8 @@ function Intro() {
           src="images/illustration-hero.svg"
           alt="Hero Illustration"
           loading="lazy"
-          className="relative left-[8%] z-10"
+          className="relative lg:left-[8%] z-10"
         />
-        <div className="block absolute z-0 bottom-0 left-[70%] w-full max-w-350px h-80 bg-soft-blue rounded-bl-[150px]"></div>
       </div>
     </section>
   );

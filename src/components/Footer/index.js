@@ -2,16 +2,16 @@ import './styles.css';
 
 function Footer() {
   return (
-    <footer className="bg-dark-blue py-8">
-      <div className="max-w-container mx-auto text-white flex items-center justify-between">
-        <div className="flex items-center justify-start">
+    <footer className="bg-dark-blue py-8 max-lg:px-8">
+      <div className="max-w-container mx-auto text-white flex items-center justify-between gap-y-10 max-lg:flex-col">
+        <div className="flex items-center justify-start max-lg:flex-col gap-y-10">
           <img
             src="images/logo-bookmark-white.svg"
             alt="Logo"
             loading="lazy"
           />
 
-          <ul className="flex items-center gap-x-10 ml-14 font-normal text-[.813rem]">
+          <ul className="flex items-center gap-x-10 gap-y-6 lg:ml-14 font-normal text-[.813rem] max-lg:flex-col max-lg:text-[1rem]">
             <li>
               <a href="#" className="duration-300 hover:text-soft-red">FEATURES</a>
             </li>
