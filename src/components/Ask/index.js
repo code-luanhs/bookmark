@@ -15,7 +15,7 @@ function Ask() {
         <TabsAsk title="What about other Chromium browsers?" lastItem={true} />
       </ul>
 
-      <a href="#" className="block w-fit mx-auto text-white bg-soft-blue rounded py-3 px-8">More info</a>
+      <a href="#" className="block w-fit mx-auto text-white bg-soft-blue rounded py-2 px-8 border-2 border-soft-blue duration-300 hover:bg-white hover:text-soft-blue">More info</a>
     </section>
   )
 }

@@ -12,12 +12,12 @@ function Contact() {
           <input
             type="name"
             placeholder="Enter your email address"
-            className="bg-white rounded py-3 px-4 w-full max-w-[330px] text-[#ccc] placeholder:text-[#ccc] font-normal"
+            className="bg-white rounded py-2.5 px-4 w-full max-w-[330px] text-[#ccc] placeholder:text-[#ccc] font-normal"
             required
           />
           <button
             onClick={(e) => e.preventDefault()}
-            className="bg-soft-red rounded py-3 px-4"
+            className="bg-soft-red rounded py-2 px-5 border-2 border-soft-red duration-300 hover:bg-white hover:text-soft-red"
           >
             Contact Us
             </button>

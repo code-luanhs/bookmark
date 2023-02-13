@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-import './styles.css';
-
 function TabsAsk({ title, lastItem = false }) {
 
   const [active, setActive] = useState(false);
@@ -12,11 +10,19 @@ function TabsAsk({ title, lastItem = false }) {
         onClick={() => active ? setActive(false) : setActive(true)}
         className={
           `${lastItem && !active ? 'border-y' : 'border-t'}
-          py-3 border-t border-[#dedede] cursor-pointer flex items-center justify-between gap-4 pr-4 arrow-down
-          ${active ? 'active' : ''}
+          py-3 border-t border-[#dedede] cursor-pointer flex items-center justify-between gap-4 pr-4
+          duration-300 hover:text-soft-red
           `}
       >
         {title}
+        <svg
+          className={`${active ? 'rotate-180' : ''} duration-300`}
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="12"
+        >
+          <path fill="none" stroke={`${active ? 'hsl(0, 94%, 66%)' : '#5267DF'}`} stroke-width="3" d="M1 1l8 8 8-8" />
+        </svg>
       </p>
       <div className={`${active ? 'block' : 'hidden'} text-gray font-normal pb-3`}>
         <p>

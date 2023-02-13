@@ -1,0 +1,7 @@
+ul.social svg path {
+  transition: .3s;
+}
+
+ul.social svg:hover path {
+  fill: hsl(0, 94%, 66%);
+}

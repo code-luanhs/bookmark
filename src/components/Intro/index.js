@@ -12,10 +12,18 @@ function Intro() {
           <nav>
             <ul className="flex items-center gap-x-6">
               <li>
-                <a href="#" className="block text-white bg-soft-blue rounded py-3 px-8">Get it on Chrome</a>
+                <a
+                  href="#"
+                  className="block text-white border-2 border-soft-blue bg-soft-blue rounded py-3 px-8 duration-300 hover:bg-white hover:text-soft-blue"
+                >
+                  Get it on Chrome
+                </a>
               </li>
               <li>
-                <a href="#" className="block text-dark-gray bg-white rounded py-3 px-8 shadow-lg">
+                <a
+                  href="#"
+                  className="block text-dark-gray border-2 border-white bg-white rounded py-3 px-8 shadow-lg duration-300 hover:border-dark-gray"
+                >
                   Get it on Firefox
                 </a>
               </li>

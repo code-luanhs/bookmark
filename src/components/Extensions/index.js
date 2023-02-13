@@ -12,21 +12,21 @@ function Extensions() {
             <h3 className="text-[1.125rem]">Add to Chrome</h3>
             <p className="mt-2 mb-10 text-gray font-normal">Mininum version 62</p>
             <img src="images/bg-dots.svg" alt="Dots" loading="lazy" className="mx-auto" />
-            <a href="#" className="block text-white bg-soft-blue rounded py-3 px-8 m-6">Add & Install Extension</a>
+            <a href="#" className="block text-white bg-soft-blue rounded py-2 px-8 m-6 border-2 border-soft-blue duration-300 hover:bg-white hover:text-soft-blue">Add & Install Extension</a>
           </div>
           <div className="text-center mt-20 shadow-lg rounded-xl">
             <img src="images/logo-firefox.svg" alt="Firefox" loading="lazy" className="mx-auto my-8" />
             <h3 className="text-[1.125rem]">Add to Firefox</h3>
             <p className="mt-2 mb-10 text-gray font-normal">Mininum version 55</p>
             <img src="images/bg-dots.svg" alt="Dots" loading="lazy" className="mx-auto" />
-            <a href="#" className="block text-white bg-soft-blue rounded py-3 px-8 m-6">Add & Install Extension</a>
+            <a href="#" className="block text-white bg-soft-blue rounded py-2 px-8 m-6 border-2 border-soft-blue duration-300 hover:bg-white hover:text-soft-blue">Add & Install Extension</a>
           </div>
           <div className="text-center mt-28 shadow-lg rounded-xl">
             <img src="images/logo-opera.svg" alt="Opera" loading="lazy" className="mx-auto my-8" />
             <h3 className="text-[1.125rem]">Add to Opera</h3>
             <p className="mt-2 mb-10 text-gray font-normal">Mininum version 46</p>
             <img src="images/bg-dots.svg" alt="Dots" loading="lazy" className="mx-auto" />
-            <a href="#" className="block text-white bg-soft-blue rounded py-3 px-8 m-6">Add & Install Extension</a>
+            <a href="#" className="block text-white bg-soft-blue rounded py-2 px-8 m-6 border-2 border-soft-blue duration-300 hover:bg-white hover:text-soft-blue">Add & Install Extension</a>
           </div>
       </div>
     </section>

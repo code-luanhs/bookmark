@@ -9,9 +9,9 @@ function TabsFeature(){
       <TabList
         className="flex items-center text-center max-w-[750px] mx-auto border-b-[1px] border-b-[#CCC]"
       >
-        <Tab className="flex-1 cursor-pointer outline-none relative py-5">Simple Bookmarking</Tab>
-        <Tab className="flex-1 cursor-pointer outline-none relative py-5">Speedy Searching</Tab>
-        <Tab className="flex-1 cursor-pointer outline-none relative py-5">Easy Sharing</Tab>
+        <Tab className="flex-1 cursor-pointer outline-none relative py-5 duration-300 hover:text-soft-red">Simple Bookmarking</Tab>
+        <Tab className="flex-1 cursor-pointer outline-none relative py-5 duration-300 hover:text-soft-red">Speedy Searching</Tab>
+        <Tab className="flex-1 cursor-pointer outline-none relative py-5 duration-300 hover:text-soft-red">Easy Sharing</Tab>
       </TabList>
 
       <TabPanel>
@@ -28,7 +28,7 @@ function TabsFeature(){
               Organize your bookmarks however you like.
               Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
             </p>
-            <a className="inline-block text-white bg-soft-blue rounded py-3 px-8" href="#">More info</a>
+            <a className="inline-block text-white bg-soft-blue rounded py-2 px-8 border-2 border-soft-blue duration-300 hover:bg-white hover:text-soft-blue" href="#">More info</a>
           </div>
           <div className="block absolute z-0 bottom-0 right-[70%] w-full max-w-350px h-80 bg-soft-blue rounded-br-[150px]"></div>
         </div>
@@ -47,7 +47,7 @@ function TabsFeature(){
               Our powerful search feature will help you find saved sites in no time at all.
               No need to trawl through all of your bookmarks.
             </p>
-            <a className="inline-block text-white bg-soft-blue rounded py-3 px-8" href="#">More info</a>
+            <a className="inline-block text-white bg-soft-blue rounded py-2 px-8 border-2 border-soft-blue duration-300 hover:bg-white hover:text-soft-blue" href="#">More info</a>
           </div>
           <div className="block absolute z-0 bottom-[50px] right-[62%] w-full max-w-350px h-80 bg-soft-blue rounded-br-[150px]"></div>
         </div>
@@ -66,7 +66,7 @@ function TabsFeature(){
               Easily share your bookmarks and collections width others.
               Create a shareable link that you can send at the click of a button.
             </p>
-            <a className="inline-block text-white bg-soft-blue rounded py-3 px-8" href="#">More info</a>
+            <a className="inline-block text-white bg-soft-blue rounded py-2 px-8 border-2 border-soft-blue duration-300 hover:bg-white hover:text-soft-blue" href="#">More info</a>
           </div>
           <div className="block absolute z-0 bottom-0 right-[62%] w-full max-w-350px h-80 bg-soft-blue rounded-br-[150px]"></div>
         </div>
