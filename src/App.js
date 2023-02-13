@@ -4,6 +4,7 @@ import Features from './components/Features';
 import Extensions from './components/Extensions';
 import Ask from './components/Ask';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Extensions />
       <Ask />
       <Contact />
+      <Footer />
     </div>
   );
 }
