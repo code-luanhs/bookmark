@@ -3,6 +3,7 @@ import Intro from './components/Intro';
 import Features from './components/Features';
 import Extensions from './components/Extensions';
 import Ask from './components/Ask';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Features />
       <Extensions />
       <Ask />
+      <Contact />
     </div>
   );
 }
