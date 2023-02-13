@@ -1,0 +1,8 @@
+.arrow-down::after {
+  content: url('../../../public/images/icon-arrow.svg');
+  transition: .3s;
+}
+
+.arrow-down.active::after {
+  rotate: 180deg;
+}
