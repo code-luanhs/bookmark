@@ -1,6 +1,6 @@
 function Intro() {
   return (
-    <section className="overflow-hidden">
+    <section className="overflow-hidden" id="intro">
       <div className="max-w-container mx-auto py-12 flex items-center justify-between max-lg:flex-col-reverse max-lg:justify-center">
         <div className="lg:max-w-[475px] max-lg:text-center max-lg:px-8">
           <h1 className="text-h1 max-lg:mt-14">A Simple Bookmark Manager</h1>

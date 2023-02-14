@@ -6,7 +6,7 @@ function Contact() {
   const onSubmit = data => console.log(data);
 
   return (
-    <section className="bg-soft-blue mt-16 max-lg:px-8">
+    <section className="bg-soft-blue mt-16 max-lg:px-8" id="contact">
       <div className="max-w-container mx-auto py-16 text-center text-white">
         <p className="tracking-[.2rem] text-[.813rem]">
           35.000+

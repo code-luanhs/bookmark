@@ -1,6 +1,6 @@
 function Extensions() {
   return (
-    <section className="py-16 max-lg:px-8">
+    <section className="py-16 max-lg:px-8" id="extensions">
       <h2 className="text-center text-h2">Download the extension</h2>
       <p className="text-gray font-normal text-center mx-auto mt-5 max-w-[475px] max-lg:mb-12">
         We've got more browsers in the pipeline.
