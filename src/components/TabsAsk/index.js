@@ -21,7 +21,7 @@ function TabsAsk({ title, lastItem = false }) {
           width="18"
           height="12"
         >
-          <path fill="none" stroke={`${active ? 'hsl(0, 94%, 66%)' : '#5267DF'}`} stroke-width="3" d="M1 1l8 8 8-8" />
+          <path fill="none" stroke={`${active ? 'hsl(0, 94%, 66%)' : '#5267DF'}`} strokeWidth="3" d="M1 1l8 8 8-8" />
         </svg>
       </p>
       <div className={`${active ? 'block' : 'hidden'} text-gray font-normal pb-3`}>
