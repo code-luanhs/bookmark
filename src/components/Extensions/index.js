@@ -1,6 +1,14 @@
+import { motion } from 'framer-motion';
+
 function Extensions() {
   return (
-    <section className="py-16 max-lg:px-8" id="extensions">
+    <motion.section
+      initial={{ opacity: 0, translateY: '70px' }}
+      whileInView={{ opacity: 1, translateY: '0' }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+      className="py-16 max-lg:px-8"
+    >
       <h2 className="text-center text-h2">Download the extension</h2>
       <p className="text-gray font-normal text-center mx-auto mt-5 max-w-[475px] max-lg:mb-12">
         We've got more browsers in the pipeline.
@@ -29,7 +37,7 @@ function Extensions() {
             <a href="#" className="block text-white bg-soft-blue rounded py-2 px-8 m-6 border-2 border-soft-blue duration-300 hover:bg-white hover:text-soft-blue">Add & Install Extension</a>
           </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

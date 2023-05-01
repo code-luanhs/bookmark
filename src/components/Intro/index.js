@@ -1,6 +1,14 @@
+import { motion } from 'framer-motion';
+
 function Intro() {
   return (
-    <section className="overflow-hidden animar" id="intro">
+    <motion.section
+      initial={{ opacity: 0, translateY: '70px' }}
+      whileInView={{ opacity: 1, translateY: '0' }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+      className="overflow-hidden animar"
+    >
       <div className="max-w-container mx-auto py-12 flex items-center justify-between max-lg:flex-col-reverse max-lg:justify-center">
         <div className="lg:max-w-[475px] max-lg:text-center max-lg:px-8">
           <h1 className="text-h1 max-lg:mt-14">A Simple Bookmark Manager</h1>
@@ -45,7 +53,7 @@ function Intro() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
