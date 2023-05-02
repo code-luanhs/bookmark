@@ -9,7 +9,7 @@ function Ask() {
       whileInView={{ opacity: 1, translateY: '0' }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
-      className="py-16 max-lg:px-8"
+      className="py-16 px-4 max-lg:px-8"
     >
       <h2 className="text-center text-h2">Frequently Asked Questions</h2>
       <p className="text-gray font-normal text-center mx-auto mt-5 max-w-[500px]">

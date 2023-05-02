@@ -27,7 +27,7 @@ module.exports = {
       }],
     },
     maxWidth: {
-      'container': '1152px'
+      'container': '1184px'
     }
   },
   plugins: [],

@@ -9,7 +9,7 @@ function Intro() {
       viewport={{ once: true }}
       className="overflow-hidden animar"
     >
-      <div className="max-w-container mx-auto py-12 flex items-center justify-between max-lg:flex-col-reverse max-lg:justify-center">
+      <div className="max-w-container mx-auto lg:px-4 py-12 flex items-center justify-between max-lg:flex-col-reverse max-lg:justify-center">
         <div className="lg:max-w-[475px] max-lg:text-center max-lg:px-8">
           <h1 className="text-h1 max-lg:mt-14">A Simple Bookmark Manager</h1>
           <p className="my-8 text-gray font-normal">

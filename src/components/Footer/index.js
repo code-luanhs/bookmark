@@ -2,7 +2,7 @@ import './styles.css';
 
 function Footer() {
   return (
-    <footer className="bg-dark-blue py-8 max-lg:px-8">
+    <footer className="bg-dark-blue py-8 px-4 max-lg:px-8">
       <div className="max-w-container mx-auto text-white flex items-center justify-between gap-y-10 max-lg:flex-col">
         <div className="flex items-center justify-start max-lg:flex-col gap-y-10">
           <img
